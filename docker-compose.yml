@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  web:
+    image: muthukrishnanv5/ec2-webapp:v1
+    ports:
+      - "80:80"
+    restart: always
